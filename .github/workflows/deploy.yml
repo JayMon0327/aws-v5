@@ -25,7 +25,7 @@ jobs:
       # UTC가 기준이기 때문에 한국시간으로 맞추려면 +9시간 해야 한다
       - name: Get current time
         uses: 1466587594/get-current-time@v2
-        id: current-time
+        id: current-time #current-time 이란 변수에 시간이 담긴다.
         with:
           format: YYYY-MM-DDTHH-mm-ss
           utcOffset: "+09:00"
